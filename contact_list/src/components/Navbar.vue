@@ -17,14 +17,14 @@ export default {
     background-color: #ffffff;
     height: 150px;
     width: 400px;
-    border-radius: 6px;
+    border-radius: 100px;
     box-shadow: 1px 1px;
     padding: 22px;
-
+    text-align: center;
 }
 
 .router {
-    font-size: 50px
+    font-size: 50px;
 }
 
 </style>

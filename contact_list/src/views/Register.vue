@@ -6,7 +6,7 @@
                 <input type="text" id="name" name="name_contact" v-model="name" placeholder="Type it a name here"><br><br>
                 <input type="text" id="contact" name="contact"  v-model="contact" placeholder="Please, type it a number"><br><br>
                 <input type="email" id="email" name="email_contact" v-model="email" placeholder="Please, type it a valid email"><br><br>
-                <input type="file" id="imgLink" name="img_contact" accept="image/*"/><br><br>
+                <input type="file" id="file" accept="image/*"/><br><br>
                 <input type="submit" class="submit-btn" value="Make Contact">
             </form>
         </div>
@@ -77,6 +77,14 @@
      margin-top: -175px;
      margin-left: -43px;
      font-family: arial;
+   }
+
+   .submit-btn {
+   background-color: rgb(37, 85, 30);
+   color: white;
+   font-weight: bold;
+   height: 100px;
+   width: 150px;
    }
 </style>
 
